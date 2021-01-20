@@ -22,6 +22,7 @@ display(){
     translate(pos.x,pos.y) ;
     rotate(angle); 
     rectMode(CENTER);
+    noStroke();
     fill("red") ;
     rect(0,0,this.width,this.height);
     pop(); 
